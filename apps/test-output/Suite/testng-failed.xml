@@ -10,9 +10,9 @@
         <methods>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="listActiveIntegrations"/>
           <include name="emptyProgressInfos"/>
           <include name="methodSetup"/>
+          <include name="attemptToListIntegrationsWhenEnableIntegrationsIsFalse"/>
         </methods>
       </class> <!-- sandalia.apps.AppTest -->
     </classes>

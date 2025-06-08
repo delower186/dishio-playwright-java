@@ -40,7 +40,7 @@ public class Helper extends Init{
 	 * @return
 	 * @throws IOException
 	 */
-	public String getScreenshotPath(String testCaseName) throws IOException {
+	public static String getScreenshotPath(String testCaseName) throws IOException {
 		
 		// set location of the screenshot
 		String destinationFile = "reports/" + testCaseName + ".png";
@@ -53,6 +53,14 @@ public class Helper extends Init{
 	    // Return just the filename for the report
 	    return testCaseName + ".png";
 		
+	}
+	
+	/***
+	 * Scroll to Top
+	 */
+	public static void scrollToTop(Page page) {
+//		page.evaluate("window.scrollTo({ top: 0, behavior: 'smooth' });");
+		page.keyboard().press("Home");
 	}
 	
 	/**

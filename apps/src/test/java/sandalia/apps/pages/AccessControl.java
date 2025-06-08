@@ -1,8 +1,8 @@
 package sandalia.apps.pages;
 
-import sandalia.apps.config.Init;
+import com.microsoft.playwright.Page;
 
-public class AccessControl extends Init{
+public class AccessControl{
 	
 	/**
 	 * LoginForm
@@ -18,14 +18,14 @@ public class AccessControl extends Init{
 	public static String logoutButton = "//button[normalize-space()='Log out']";
 	
 	
-	public static void login() {
+	public static void login(Page page) {
 		
 		page.locator(email).fill("testerbd365@gmail.com");
 		page.locator(password).fill("A@12345b");
 		page.locator(signInBtn).click();
 	}
 	
-	public static void logout() {
+	public static void logout(Page page) {
 		page.locator(profileDropDownIcon).click();
 		page.locator(logoutButton).click();
 	}

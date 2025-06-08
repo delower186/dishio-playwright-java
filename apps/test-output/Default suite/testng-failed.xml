@@ -6,8 +6,8 @@
       <class name="sandalia.apps.AppTest">
         <methods>
           <include name="tearDown"/>
-          <include name="testCase01"/>
           <include name="setup"/>
+          <include name="loadingSpinnerConfirmationMsg"/>
           <include name="emptyProgressInfos"/>
           <include name="methodSetup"/>
         </methods>

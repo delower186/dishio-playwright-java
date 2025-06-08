@@ -9,6 +9,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 
 import com.microsoft.playwright.Browser;
+import com.microsoft.playwright.BrowserContext;
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.Playwright;
 
@@ -21,7 +22,9 @@ public class Init extends EnvSetup{
 	
 	protected static Playwright playwright;
 	protected static Browser browser;
+	protected static BrowserContext browserContext;
 	protected static Page page;
+	protected static String baseURL;
 	
 	
     // Define a set of method names to skip
@@ -41,17 +44,20 @@ public class Init extends EnvSetup{
 	public void setup() {
         playwright = Playwright.create();
         browser = playwright.chromium().launch(new LaunchOptions().setHeadless(true));
+        browserContext = browser.newContext();
+        
         // Page mean a browser tab
-        page = browser.newPage();
+        page = browserContext.newPage();
         
         /**
          * set base url
          * environment (prod, dev or staging) include separate base url for each and activate environment using first parameter dev, staging or prod
          */
-		String baseURL = setBaseUrl(EnvVariables.envType,EnvVariables.devURL,EnvVariables.stagingURL,EnvVariables.prodURL);
+		baseURL = setBaseUrl(EnvVariables.envType,EnvVariables.devURL,EnvVariables.stagingURL,EnvVariables.prodURL);
 		
 		page.navigate(baseURL);
-		AccessControl.login();
+		AccessControl.login(page);
+		
 	}
 	
 	//clear arraylist before each test case
@@ -72,8 +78,9 @@ public class Init extends EnvSetup{
 
 	@AfterSuite
 	public void tearDown() {
-		AccessControl.logout();
+		AccessControl.logout(page);
 		page.close();
+		browserContext.close();
 		browser.close();
 		playwright.close();
 	}
