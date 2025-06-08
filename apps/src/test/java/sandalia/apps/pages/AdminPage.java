@@ -204,7 +204,7 @@ public class AdminPage extends Init{
 
 		browserContextVideo.close();
 		System.out.println(recordPage.video().path());
-		String videoFileName = page.video().path().getFileName().toString();
+		String videoFileName = recordPage.video().path().getFileName().toString();
 		// For github Pages
 		Helper.progressInfos.add("UI: Mapping UI, error display, disables action on loading etc: " + "<video width='600' controls autoplay><source src='"+ videoFileName +"' type='video/webm'>Your browser does not support HTML video.</video>");
 		
