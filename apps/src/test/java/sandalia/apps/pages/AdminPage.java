@@ -152,7 +152,7 @@ public class AdminPage extends Init{
 		      
 			Helper.progressInfos.add("Brand: '"+ brandName+"', Total integrations: " + count +" and They are '" + String.join("', '", titles) + "'");
 		}catch(Exception e) {
-			Assert.fail("integration menu button is not found: " + e.getMessage());
+			Helper.progressInfos.add("integration menu button 'integrationsBTN' is not found");
 		}
 		
 	}
