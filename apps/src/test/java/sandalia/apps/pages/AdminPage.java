@@ -209,7 +209,7 @@ public class AdminPage extends Init{
 		Helper.progressInfos.add("UI: Mapping UI, error display, disables action on loading etc: " + "<video width='600' controls autoplay><source src='"+ videoFileName +"' type='video/webm'>Your browser does not support HTML video.</video>");
 		
 		// For local Testing
-		//Helper.progressInfos.add("UI: Mapping UI, error display, disables action on loading etc: " + "<video width='600' controls autoplay><source src='"+ recordPage.video().path() +"' type='video/webm'>Your browser does not support HTML video.</video>");
+		// Helper.progressInfos.add("UI: Mapping UI, error display, disables action on loading etc: " + "<video width='600' controls autoplay><source src='"+ recordPage.video().path() +"' type='video/webm'>Your browser does not support HTML video.</video>");
 		
 		
 	}
