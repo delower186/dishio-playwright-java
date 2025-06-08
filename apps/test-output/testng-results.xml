@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-08T17:10:23 GMT+06:00" name="Suite" finished-at="2025-06-08T17:11:28 GMT+06:00" duration-ms="65590">
+  <suite started-at="2025-06-08T17:31:06 GMT+06:00" name="Suite" finished-at="2025-06-08T17:32:07 GMT+06:00" duration-ms="60886">
     <groups>
     </groups>
-    <test started-at="2025-06-08T17:10:23 GMT+06:00" name="Test" finished-at="2025-06-08T17:11:28 GMT+06:00" duration-ms="65590">
+    <test started-at="2025-06-08T17:31:06 GMT+06:00" name="Test" finished-at="2025-06-08T17:32:07 GMT+06:00" duration-ms="60886">
       <class name="sandalia.apps.AppTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:sandalia.apps.AppTest@1caa0244]" started-at="2025-06-08T17:10:09 GMT+06:00" name="setup" finished-at="2025-06-08T17:10:23 GMT+06:00" duration-ms="13396" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:sandalia.apps.AppTest@1caa0244]" started-at="2025-06-08T17:30:52 GMT+06:00" name="setup" finished-at="2025-06-08T17:31:06 GMT+06:00" duration-ms="14020" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="emptyProgressInfos()[pri:0, instance:sandalia.apps.AppTest@1caa0244]" started-at="2025-06-08T17:10:23 GMT+06:00" name="emptyProgressInfos" finished-at="2025-06-08T17:10:23 GMT+06:00" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="emptyProgressInfos()[pri:0, instance:sandalia.apps.AppTest@1caa0244]" started-at="2025-06-08T17:31:06 GMT+06:00" name="emptyProgressInfos" finished-at="2025-06-08T17:31:06 GMT+06:00" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emptyProgressInfos -->
-        <test-method is-config="true" signature="methodSetup(java.lang.reflect.Method)[pri:0, instance:sandalia.apps.AppTest@1caa0244]" started-at="2025-06-08T17:10:23 GMT+06:00" name="methodSetup" finished-at="2025-06-08T17:10:23 GMT+06:00" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="methodSetup(java.lang.reflect.Method)[pri:0, instance:sandalia.apps.AppTest@1caa0244]" started-at="2025-06-08T17:31:06 GMT+06:00" name="methodSetup" finished-at="2025-06-08T17:31:06 GMT+06:00" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,15 +26,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodSetup -->
-        <test-method signature="listActiveIntegrations()[pri:1, instance:sandalia.apps.AppTest@1caa0244]" started-at="2025-06-08T17:10:23 GMT+06:00" name="listActiveIntegrations" finished-at="2025-06-08T17:10:31 GMT+06:00" duration-ms="7984" status="PASS">
+        <test-method signature="listActiveIntegrations()[pri:1, instance:sandalia.apps.AppTest@1caa0244]" started-at="2025-06-08T17:31:06 GMT+06:00" name="listActiveIntegrations" finished-at="2025-06-08T17:31:16 GMT+06:00" duration-ms="9882" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- listActiveIntegrations -->
-        <test-method is-config="true" signature="emptyProgressInfos()[pri:0, instance:sandalia.apps.AppTest@1caa0244]" started-at="2025-06-08T17:10:31 GMT+06:00" name="emptyProgressInfos" finished-at="2025-06-08T17:10:31 GMT+06:00" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="emptyProgressInfos()[pri:0, instance:sandalia.apps.AppTest@1caa0244]" started-at="2025-06-08T17:31:16 GMT+06:00" name="emptyProgressInfos" finished-at="2025-06-08T17:31:16 GMT+06:00" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emptyProgressInfos -->
-        <test-method is-config="true" signature="methodSetup(java.lang.reflect.Method)[pri:0, instance:sandalia.apps.AppTest@1caa0244]" started-at="2025-06-08T17:10:31 GMT+06:00" name="methodSetup" finished-at="2025-06-08T17:10:31 GMT+06:00" duration-ms="1" status="PASS">
+        <test-method signature="listAllIntegrations()[pri:2, instance:sandalia.apps.AppTest@1caa0244]" started-at="2025-06-08T17:31:16 GMT+06:00" name="listAllIntegrations" finished-at="2025-06-08T17:31:20 GMT+06:00" duration-ms="3814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listAllIntegrations -->
+        <test-method is-config="true" signature="methodSetup(java.lang.reflect.Method)[pri:0, instance:sandalia.apps.AppTest@1caa0244]" started-at="2025-06-08T17:31:16 GMT+06:00" name="methodSetup" finished-at="2025-06-08T17:31:16 GMT+06:00" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -45,81 +49,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodSetup -->
-        <test-method signature="listAllIntegrations()[pri:2, instance:sandalia.apps.AppTest@1caa0244]" started-at="2025-06-08T17:10:31 GMT+06:00" name="listAllIntegrations" finished-at="2025-06-08T17:10:35 GMT+06:00" duration-ms="3783" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- listAllIntegrations -->
-        <test-method is-config="true" signature="emptyProgressInfos()[pri:0, instance:sandalia.apps.AppTest@1caa0244]" started-at="2025-06-08T17:10:35 GMT+06:00" name="emptyProgressInfos" finished-at="2025-06-08T17:10:35 GMT+06:00" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="emptyProgressInfos()[pri:0, instance:sandalia.apps.AppTest@1caa0244]" started-at="2025-06-08T17:31:20 GMT+06:00" name="emptyProgressInfos" finished-at="2025-06-08T17:31:20 GMT+06:00" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emptyProgressInfos -->
-        <test-method signature="attemptToListIntegrationsWhenEnableIntegrationsIsFalse()[pri:3, instance:sandalia.apps.AppTest@1caa0244]" started-at="2025-06-08T17:10:35 GMT+06:00" name="attemptToListIntegrationsWhenEnableIntegrationsIsFalse" finished-at="2025-06-08T17:11:10 GMT+06:00" duration-ms="35487" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[integration menu button is not found: Error {
-  message='Timeout 30000ms exceeded.
-  name='TimeoutError
-  stack='TimeoutError: Timeout 30000ms exceeded.
-    at ProgressController.run (C:\Users\johnk\AppData\Local\Temp\playwright-java-4404279693085135947\package\lib\server\progress.js:76:26)
-    at Frame.click (C:\Users\johnk\AppData\Local\Temp\playwright-java-4404279693085135947\package\lib\server\frames.js:991:23)
-    at FrameDispatcher.click (C:\Users\johnk\AppData\Local\Temp\playwright-java-4404279693085135947\package\lib\server\dispatchers\frameDispatcher.js:117:30)
-    at FrameDispatcher._handleCommand (C:\Users\johnk\AppData\Local\Temp\playwright-java-4404279693085135947\package\lib\server\dispatchers\dispatcher.js:94:40)
-    at DispatcherConnection.dispatch (C:\Users\johnk\AppData\Local\Temp\playwright-java-4404279693085135947\package\lib\server\dispatchers\dispatcher.js:307:39)
-}
-Call log:
--   - waiting for locator("//button[@id='underline-button-integrations']")
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: integration menu button is not found: Error {
-  message='Timeout 30000ms exceeded.
-  name='TimeoutError
-  stack='TimeoutError: Timeout 30000ms exceeded.
-    at ProgressController.run (C:\Users\johnk\AppData\Local\Temp\playwright-java-4404279693085135947\package\lib\server\progress.js:76:26)
-    at Frame.click (C:\Users\johnk\AppData\Local\Temp\playwright-java-4404279693085135947\package\lib\server\frames.js:991:23)
-    at FrameDispatcher.click (C:\Users\johnk\AppData\Local\Temp\playwright-java-4404279693085135947\package\lib\server\dispatchers\frameDispatcher.js:117:30)
-    at FrameDispatcher._handleCommand (C:\Users\johnk\AppData\Local\Temp\playwright-java-4404279693085135947\package\lib\server\dispatchers\dispatcher.js:94:40)
-    at DispatcherConnection.dispatch (C:\Users\johnk\AppData\Local\Temp\playwright-java-4404279693085135947\package\lib\server\dispatchers\dispatcher.js:307:39)
-}
-Call log:
--   - waiting for locator("//button[@id='underline-button-integrations']")
-
-at org.testng.Assert.fail(Assert.java:111)
-at sandalia.apps.pages.AdminPage.integrationsWhenEnableIntegrationsIsFalse(AdminPage.java:155)
-at sandalia.apps.AppTest.attemptToListIntegrationsWhenEnableIntegrationsIsFalse(AppTest.java:23)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="attemptToListIntegrationsWhenEnableIntegrationsIsFalse()[pri:3, instance:sandalia.apps.AppTest@1caa0244]" started-at="2025-06-08T17:31:20 GMT+06:00" name="attemptToListIntegrationsWhenEnableIntegrationsIsFalse" finished-at="2025-06-08T17:31:55 GMT+06:00" duration-ms="35240" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- attemptToListIntegrationsWhenEnableIntegrationsIsFalse -->
-        <test-method is-config="true" signature="methodSetup(java.lang.reflect.Method)[pri:0, instance:sandalia.apps.AppTest@1caa0244]" started-at="2025-06-08T17:10:35 GMT+06:00" name="methodSetup" finished-at="2025-06-08T17:10:35 GMT+06:00" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="methodSetup(java.lang.reflect.Method)[pri:0, instance:sandalia.apps.AppTest@1caa0244]" started-at="2025-06-08T17:31:20 GMT+06:00" name="methodSetup" finished-at="2025-06-08T17:31:20 GMT+06:00" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -130,11 +68,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodSetup -->
-        <test-method is-config="true" signature="emptyProgressInfos()[pri:0, instance:sandalia.apps.AppTest@1caa0244]" started-at="2025-06-08T17:11:10 GMT+06:00" name="emptyProgressInfos" finished-at="2025-06-08T17:11:10 GMT+06:00" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="emptyProgressInfos()[pri:0, instance:sandalia.apps.AppTest@1caa0244]" started-at="2025-06-08T17:31:55 GMT+06:00" name="emptyProgressInfos" finished-at="2025-06-08T17:31:55 GMT+06:00" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emptyProgressInfos -->
-        <test-method is-config="true" signature="methodSetup(java.lang.reflect.Method)[pri:0, instance:sandalia.apps.AppTest@1caa0244]" started-at="2025-06-08T17:11:10 GMT+06:00" name="methodSetup" finished-at="2025-06-08T17:11:10 GMT+06:00" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="methodSetup(java.lang.reflect.Method)[pri:0, instance:sandalia.apps.AppTest@1caa0244]" started-at="2025-06-08T17:31:55 GMT+06:00" name="methodSetup" finished-at="2025-06-08T17:31:55 GMT+06:00" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -145,11 +83,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodSetup -->
-        <test-method signature="loadingSpinnerConfirmationMsg()[pri:4, instance:sandalia.apps.AppTest@1caa0244]" started-at="2025-06-08T17:11:10 GMT+06:00" name="loadingSpinnerConfirmationMsg" finished-at="2025-06-08T17:11:28 GMT+06:00" duration-ms="18141" status="PASS">
+        <test-method signature="loadingSpinnerConfirmationMsg()[pri:4, instance:sandalia.apps.AppTest@1caa0244]" started-at="2025-06-08T17:31:55 GMT+06:00" name="loadingSpinnerConfirmationMsg" finished-at="2025-06-08T17:32:07 GMT+06:00" duration-ms="11879" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadingSpinnerConfirmationMsg -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:sandalia.apps.AppTest@1caa0244]" started-at="2025-06-08T17:11:29 GMT+06:00" name="tearDown" finished-at="2025-06-08T17:11:29 GMT+06:00" duration-ms="275" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:sandalia.apps.AppTest@1caa0244]" started-at="2025-06-08T17:32:07 GMT+06:00" name="tearDown" finished-at="2025-06-08T17:32:07 GMT+06:00" duration-ms="179" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
